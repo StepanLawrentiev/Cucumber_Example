@@ -12,10 +12,12 @@ import java.util.Map;
 
 
 public class Step extends Endpoint {
+
     @Допустим("^пользователь перешел на страницу авторизации$")
     public void stepToPage () {
         driver.get(PlatformURL);
     }
+
     @Когда("^пользователь авторизуется введя корректные учётные данные$")
     public void authorizationWitchCorrectData () {
         driver.findElement(By.id("j_username")).sendKeys(admin);
