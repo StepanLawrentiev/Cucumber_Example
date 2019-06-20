@@ -4,8 +4,8 @@
 
   Предыстория:
     Допустим пользователь авторизован под KpdUser
-    И перешел на страницу "/views/connector/multirequest/multirequestOperationRegistry.xhtml"
-    И пользователь нажал на кнопку "Создать запрос"
+    И перешел на страницу /views/connector/multirequest/multirequestOperationRegistry.xhtml
+    И пользователь нажал на кнопку Создать запрос
     И пользователь заполнил 3 поля
       |Название           |Значение|
       |Фамилия            |Фамилия |
